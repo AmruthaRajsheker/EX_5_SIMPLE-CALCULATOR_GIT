@@ -39,7 +39,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-
+```
+```
 public class MainActivity extends AppCompatActivity {
     EditText e1, e2;
     TextView t1;
@@ -105,6 +106,8 @@ public class MainActivity extends AppCompatActivity {
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".MainActivity">
+```
+```
     <TextView
         android:layout_width="194dp"
         android:layout_height="43dp"
