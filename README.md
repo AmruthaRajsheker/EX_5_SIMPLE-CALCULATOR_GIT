@@ -193,7 +193,8 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+```
+```
     <Button
         android:id="@+id/sub"
         android:layout_width="wrap_content"
@@ -272,7 +273,7 @@ public class MainActivity extends AppCompatActivity {
 </manifest>
 ```
 ## Output:
-<img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/5683740f-57b7-4f90-82c3-df368daba744" alt="description" style="width: 30%; height: auto;">
+<img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/5683740f-57b7-4f90-82c3-df368daba744" alt="description" style="width: 25%; height: auto;">
 
 
 ## Result:
