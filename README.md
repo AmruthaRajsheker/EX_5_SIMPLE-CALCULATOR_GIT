@@ -24,7 +24,6 @@ Step 7: Save and run the application.
 </br>
 
 ## Program:
-
 Program to create simple calculator using Android Studio.
 
 Developed by: Amrutha Rajsheker
@@ -259,7 +258,6 @@ public class MainActivity extends AppCompatActivity {
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
 ```
 ## Output:
