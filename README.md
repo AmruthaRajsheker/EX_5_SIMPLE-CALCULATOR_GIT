@@ -39,8 +39,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-```
-```
+
 public class MainActivity extends AppCompatActivity {
     EditText e1, e2;
     TextView t1;
@@ -106,8 +105,7 @@ public class MainActivity extends AppCompatActivity {
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".MainActivity">
-```
-```
+
     <TextView
         android:layout_width="194dp"
         android:layout_height="43dp"
@@ -142,8 +140,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-```
-```
+
     <EditText
         android:id="@+id/num2"
         android:layout_width="363dp"
@@ -193,8 +190,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-```
-```
+
     <Button
         android:id="@+id/sub"
         android:layout_width="wrap_content"
@@ -272,13 +268,10 @@ public class MainActivity extends AppCompatActivity {
     </application>
 </manifest>
 ```
+
 ## Output:
 <img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/5683740f-57b7-4f90-82c3-df368daba744" alt="description" style="width: 25%; height: auto;">    
 <img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/e87b074c-f202-4c67-959f-0633b22e7a06" alt="description" style="width: 24%; height: auto;">
-
-</br>
-</br>
-
 <img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/1b4e8d78-2bfd-40dc-a729-b7891053bc81" alt="description" style="width: 25%; height: auto;">
 <img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/be26a09f-ee24-425b-b0bc-4cf80bb7b8e3" alt="description" style="width: 25%; height: auto;">
 
