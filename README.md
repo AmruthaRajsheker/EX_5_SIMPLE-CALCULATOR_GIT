@@ -272,8 +272,11 @@ public class MainActivity extends AppCompatActivity {
 ## Output:
 <img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/5683740f-57b7-4f90-82c3-df368daba744" alt="description" style="width: 25%; height: auto;">    
 <img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/e87b074c-f202-4c67-959f-0633b22e7a06" alt="description" style="width: 24%; height: auto;">
-<img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/1b4e8d78-2bfd-40dc-a729-b7891053bc81" alt="description" style="width: 25%; height: auto;">
+<img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/1b4e8d78-2bfd-40dc-a729-b7891053bc81" alt="description" style="width: 24%; height: auto;">
 <img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/be26a09f-ee24-425b-b0bc-4cf80bb7b8e3" alt="description" style="width: 25%; height: auto;">
+
+&emsp;&emsp;&emsp; MULTIPLICATION &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ADDITION &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SUBTRACTION &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; DIVISION 
+
 
 ## Result:
 Thus a Simple Android Application to create a calculator using Android Studio was developed and executed successfully.
