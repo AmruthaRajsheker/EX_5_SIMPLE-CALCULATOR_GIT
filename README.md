@@ -1,13 +1,10 @@
 # Ex_5_-Develop a simple calculator using android studio.
-Develop a program to create a simple calculator using Android Studio.
 
 ## AIM:
 To develop a program to create a simple calculator using Android Studio.
 
 ## EQUIPMENTS REQUIRED:
-
 Android Studio(Min. required Artic Fox)
-
 
 ## ALGORITHM:
 Step 1: Open Android Studio and then click on File -> New -> New project.
@@ -27,13 +24,13 @@ Step 7: Save and run the application.
 </br>
 
 ## Program:
- ```
-/*
+
 Program to create simple calculator using Android Studio.
+
 Developed by: Amrutha Rajsheker
+
 RegisterNumber: 212222110003
-*/
-```
+
 
 ## MainActivity.java:
 ```
