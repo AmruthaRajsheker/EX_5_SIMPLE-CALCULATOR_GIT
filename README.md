@@ -30,8 +30,13 @@ Developed by: Amrutha Rajsheker
 
 RegisterNumber: 212222110003
 
+</br>
+</br>
+</br>
+</br>
 
 ## MainActivity.java:
+
 ```
 package com.example.exp_5_calculator;
 import androidx.appcompat.app.AppCompatActivity;
