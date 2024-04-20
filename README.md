@@ -125,6 +125,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/num1"
         android:layout_width="364dp"
@@ -176,6 +177,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/sum"
         android:layout_width="wrap_content"
@@ -207,6 +209,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/div"
         android:layout_width="wrap_content"
@@ -223,6 +226,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/mul"
         android:layout_width="wrap_content"
