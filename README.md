@@ -24,6 +24,7 @@ Step 6: Perform the Calculator Operation in MainActivity.java
 
 Step 7: Save and run the application.
 
+</br>
 
 ## Program:
  ```
@@ -37,11 +38,7 @@ RegisterNumber: 212222110003
 ## MainActivity.java:
 ```
 package com.example.exp_5_calculator;
-
-//package com.example.ex_7;
-
 import androidx.appcompat.app.AppCompatActivity;
-//import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -55,53 +52,36 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
     public boolean getNumbers() {
-
         e1 = (EditText) findViewById(R.id.num1);
-
         e2 = (EditText) findViewById(R.id.num2);
-
         t1 = (TextView) findViewById(R.id.result);
-
         String s1 = e1.getText().toString();
-
         String s2 = e2.getText().toString();
-
         if ((s1.equals(null) && s2.equals(null))
                 || (s1.equals("") && s2.equals(""))) {
-
             String result = "Please enter a value";
             t1.setText(result);
-
             return false;
         } else {
             num1 = Integer.parseInt(s1);
-
             num2 = Integer.parseInt(s2);
         }
-
         return true;
     }
-
     public void doSum(View v) {
-
         if (getNumbers()) {
             int sum = num1 + num2;
             t1.setText(num1+"+"+num2+"="+Integer.toString(sum));
         }
     }
-
     public void doSub(View v) {
-
         if (getNumbers()) {
             int sub = num1 - num2;
             t1.setText(num1+"-"+num2+"="+Integer.toString(sub));
         }
     }
-
     public void doMul(View v) {
-
         if (getNumbers()) {
             int mul = num1 * num2;
             t1.setText(num1+"*"+num2+"="+Integer.toString(mul));
@@ -109,9 +89,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void doDiv(View v) {
-
         if (getNumbers()) {
-
             double div = num1 / (num2 * 1.0);
             t1.setText(num1 + "/" + num2 + "=" + Double.toString(div));
         }
@@ -130,7 +108,6 @@ public class MainActivity extends AppCompatActivity {
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".MainActivity">
-
     <TextView
         android:layout_width="194dp"
         android:layout_height="43dp"
@@ -148,7 +125,6 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <EditText
         android:id="@+id/num1"
         android:layout_width="364dp"
@@ -165,7 +141,6 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <EditText
         android:id="@+id/num2"
         android:layout_width="363dp"
@@ -182,7 +157,6 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/result"
         android:layout_width="356dp"
@@ -199,7 +173,6 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/sum"
         android:layout_width="wrap_content"
@@ -231,7 +204,6 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/div"
         android:layout_width="wrap_content"
@@ -248,7 +220,6 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/mul"
         android:layout_width="wrap_content"
@@ -264,13 +235,36 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
 ## AndroidMainfest.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Exp_5_calculator"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 
+</manifest>
+```
 ## Output:
 <img src="https://github.com/AmruthaRajsheker/EX_5_SIMPLE-CALCULATOR_GIT/assets/119475943/5683740f-57b7-4f90-82c3-df368daba744" alt="description" style="width: 30%; height: auto;">
 
