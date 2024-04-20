@@ -21,7 +21,6 @@ Step 6: Perform the Calculator Operation in MainActivity.java
 
 Step 7: Save and run the application.
 
-</br>
 
 ## Program:
 Program to create simple calculator using Android Studio.
@@ -40,6 +39,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
 public class MainActivity extends AppCompatActivity {
     EditText e1, e2;
     TextView t1;
