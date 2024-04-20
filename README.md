@@ -141,6 +141,8 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+```
+```
     <EditText
         android:id="@+id/num2"
         android:layout_width="363dp"
@@ -157,8 +159,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-```
-```
+
     <TextView
         android:id="@+id/result"
         android:layout_width="356dp"
